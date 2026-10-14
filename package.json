@@ -1,0 +1,20 @@
+{
+  "name": "dineth-md-mini-bot",
+  "version": "1.0.0",
+  "description": "DINETH_MD_Mini_Bot - WhatsApp bot with its own session (pair code / QR) site",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js",
+    "bot": "node index.js",
+    "pair": "node server.js"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.9",
+    "express": "^4.19.2",
+    "pino": "^9.0.0",
+    "qrcode": "^1.5.4"
+  }
+}
